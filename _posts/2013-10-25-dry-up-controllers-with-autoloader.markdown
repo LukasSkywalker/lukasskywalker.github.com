@@ -2,7 +2,6 @@
 layout: post
 title:  "DRY up controllers with autoloader"
 date:   2013-10-25 21:21:21
-categories: ruby 2.0.0 dry controller rails gem
 ---
 
 Have you ever had the feeling that you were repeating yourself when writing controller code for your Rails app? You were right, because you actually did!  

@@ -2,7 +2,6 @@
 layout: post
 title:  "How to fix `Gem::ConfigFile::RbConfig (NameError)` in Ruby 1.9.1"
 date:   2013-09-06 13:01:06
-categories: ruby 1.9.1 rails gem
 ---
 
 I recently had to use a very very old Ruby version for a legacy project. I installed version 1.9.1 via RVM on my Ubuntu 13.04 machine and everything seemed to work great. Until I tried to install the Rails 2.0.2 gem, which produced the following error:
