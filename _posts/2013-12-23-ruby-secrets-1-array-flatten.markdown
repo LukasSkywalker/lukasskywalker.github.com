@@ -12,7 +12,7 @@ You probably have at least heard of or even used the [Array#flatten](http://www.
       
 Pretty straight-forward, but still a cool feature.
 
-But wait, there's more awesomenss. Array#flatten takes an optional argument that sets the maximum recurstion depth of the flatten calls, making it possible to flatten an array only partially:
+But wait, there's more awesomeness. Array#flatten takes an optional argument that sets the maximum recurstion depth of the flatten calls, making it possible to flatten an array only partially:
 
     > ary = [[[1, 2], 3], [[3, 4], 5], [[4, 5], 6], [[7, 8], 9]]
     > ary.flatten
@@ -22,7 +22,7 @@ But wait, there's more awesomenss. Array#flatten takes an optional argument that
     
 As you can see, only the first nesting level of the array is actually flattened.
 
-Now, how is this feature handy? I recently had to represent tracking data from a GPS device. The API returned the data as an array of laps, where each lap was an array of waypoints and each waypoint was an array of a latitude and a longitude:
+Now, how is this feature handy? I recently had to display tracking data from a GPS device on a map. The API returned the data as an array of laps, where each lap was an array of waypoints and each waypoint was an array of a latitude and a longitude:
 
     > track = [[[1.234,5.235],[1.245,5.234],[1.256,5.345]] , [[1.343,5.432],[1.245,5.234]]]
     
